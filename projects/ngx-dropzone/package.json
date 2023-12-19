@@ -1,8 +1,8 @@
 {
-  "name": "@clemdesign/ngx-dropzone",
+  "name": "@prasantht/ngx-dropzone",
   "description": "A highly configurable dropzone component for Angular.",
-  "version": "16.0.0",
-  "author": "clemdesign",
+  "version": "1.0.0",
+  "author": "peterfreeman",
   "keywords": [
     "angular",
     "angular 2",
@@ -19,18 +19,20 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/clemdesign/ngx-dropzone",
+  "homepage": "https://github.com/prasantht96/ngx-dropzone",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clemdesign/ngx-dropzone.git"
+    "url": "git+https://github.com/prasantht96/ngx-dropzone.git"
   },
   "peerDependencies": {
-    "@angular/common": "^16.0.0",
-    "@angular/core": "^16.0.0",
-    "@angular/forms": "^16.0.0",
-    "tslib": "^2.3.0"
+    "@angular/common": ">=14.x",
+    "@angular/core": ">=14.x",
+    "@angular/forms": ">=14.x"
   },
   "bugs": {
-    "url": "https://github.com/clemdesign/ngx-dropzone/issues"
+    "url": "https://github.com/prasantht96/ngx-dropzone/issues"
+  },
+  "dependencies": {
+    "tslib": "^2.x"
   }
 }
